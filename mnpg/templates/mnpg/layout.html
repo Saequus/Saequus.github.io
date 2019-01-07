@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+    <!-- Main CSS -->
+    <link type="text/css" rel="stylesheet" href="{% static '/main.css' %}">
+
+    <link rel="shortcut icon" href="{% static '/s.png' %}" type="image/png">
+
+    <script>
+        $(window).load(function() {
+        $("#loader-screen").width("100%");
+        $("#loader-screen").height("100%");
+        $("#loader-screen").fadeOut(1000);
+        });
+    </script>
+</head>
+<body>
+    <!--<div id="loader-screen">-->
+        <!--<div class="loader" id="loader">-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+        <!--</div>-->
+
+        <!--<div class="layered-paper">-->
+            <!--Slava Spetsyian-->
+        <!--</div>-->
+    <!--</div>-->
+    {% block content %}{% endblock %}
+
+</body>
+</html>
