@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+  font-size: 18px;
+}
+
+/* – – – SCSS Definitions Part – – – */
+.title-arch {
+  text-align: center;
+  margin: 5rem 0;
+  letter-spacing: 2px;
+}
+
+.title-arch .name {
+  text-shadow: 0 0 1px black;
+  color: #f57c00;
+}
+
+.title-arch .orange a, a:hover {
+  padding: 2%;
+  color: #f57c00;
+}
+
+.title-arch .orange {
+  color: #f57c00;
+}
+
+.avatar {
+  max-width: 50%;
+  padding: 2%;
+  margin: 1%;
+}
+
+.separate {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-description {
+  width: 32%;
+  height: 300px;
+  background: #1c1c1c;
+  color: #f57c00;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+.box-description p, h1 {
+  padding: 1% !important;
+}
+
+.box-description a {
+  color: gray;
+  padding: 1rem 2rem 1rem 2rem;
+  line-height: 40px;
+  border: 0.1rem solid gray;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.box-description a:hover {
+  border-color: #f57c00;
+  color: #f57c00;
+}
+
+@media screen and (max-width: 991.98px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+  .title-arch {
+    text-align: left;
+  }
+
+  .avatar {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
+  }
+
+  .box-description {
+    height: 60%;
+    width: 80%;
+    margin: 0 3rem 2rem 3rem;
+  }
+
+  .separate {
+    display: block;
+    justify-content: flex-end;
+  }
+
+  .title-arch-home {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
