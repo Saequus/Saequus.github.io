@@ -6,7 +6,6 @@ body {
 /* – – – SCSS Definitions Part – – – */
 .title-arch {
   text-align: center;
-  margin: 5rem 0;
   letter-spacing: 2px;
 }
 
@@ -16,7 +15,6 @@ body {
 }
 
 .title-arch .orange a, a:hover {
-  padding: 2%;
   color: #f57c00;
 }
 
@@ -31,24 +29,16 @@ body {
 }
 
 .separate {
-  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .box-description {
-  width: 32%;
-  height: 300px;
   background: #1c1c1c;
   color: #f57c00;
   border-radius: 3px;
-  overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-}
-
-.box-description p, h1 {
-  padding: 1% !important;
 }
 
 .box-description a {
@@ -68,9 +58,9 @@ body {
   color: #f57c00;
 }
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1199.98px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .title-arch {
@@ -85,8 +75,6 @@ body {
   }
 
   .box-description {
-    height: 60%;
-    width: 80%;
     margin: 0 3rem 2rem 3rem;
   }
 
