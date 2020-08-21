@@ -18,29 +18,32 @@ $background-dark: #ff9800;
 
 
 .title-arch {
-    text-align: center;
-    letter-spacing: 2px;
+  text-align: center;
+  letter-spacing: 2px;
 
 }
 
 .title-arch .name {
-    text-shadow: 0 0 1px black;
-    color: $orange;
+  text-shadow: 0 0 1px black;
+  color: $orange;
 }
 
 .title-arch .orange a, a:hover {
-color: $orange;
+  color: $orange;
 }
 
 .title-arch .orange {
-color: $orange;
+  color: $orange;
 }
 
+.description-container {
+  text-align: left;
+}
 
 .avatar {
-    max-width: 50%;
-    padding: 2%;
-    margin: 1%;
+  max-width: 50%;
+  padding: 10px 20px 15px 0;
+  margin: 5px 5px 5px 0;
 }
 
 
@@ -86,32 +89,32 @@ color: $orange;
 
 @media screen and (max-width:1199.98px) {
 
-    body {
+  body {
     font-size: 1.7rem;
-    }
+  }
 
-   .title-arch {
-        text-align: left;
+  .title-arch {
+   text-align: left;
+  }
 
-    }
-   .avatar {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 3%;
+  .avatar {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
 
-    }
+  }
 
-   .box-description {
-        margin: 0 3rem 2rem 3rem;
-   }
+  .description-container {
+    text-align: left;
+  }
 
-   .separate {
-        display: block;
-        justify-content: flex-end;
-    }
+  .separate {
+    display: block;
+    justify-content: flex-end;
+  }
 
-   .title-arch-home {
-        text-align: center;
-    }
+  .title-arch-home {
+    text-align: center;
+  }
 }

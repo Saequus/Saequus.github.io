@@ -22,10 +22,14 @@ body {
   color: #f57c00;
 }
 
+.description-container {
+  text-align: left;
+}
+
 .avatar {
   max-width: 50%;
-  padding: 2%;
-  margin: 1%;
+  padding: 10px 20px 15px 0;
+  margin: 5px 5px 5px 0;
 }
 
 .separate {
@@ -74,8 +78,8 @@ body {
     margin-bottom: 3%;
   }
 
-  .box-description {
-    margin: 0 3rem 2rem 3rem;
+  .description-container {
+    text-align: left;
   }
 
   .separate {
