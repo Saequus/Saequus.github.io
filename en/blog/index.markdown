@@ -1,4 +1,5 @@
 ---
 layout: blog-feed-en
-title: en
+langLink: en
+lang: en
 ---

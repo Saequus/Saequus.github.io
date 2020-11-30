@@ -1,6 +1,6 @@
 ---
 layout: about
-lang: ru
+lang-about: ru
 ---
 
 ## Прикладное программирование

@@ -1,0 +1,33 @@
+<footer class='site-footer h-card'>
+  <data class='u-url' href='{{ "/" | relative_url }}'></data>
+
+  <div class='wrapper'>
+
+    <div class='footer-col-wrapper'>
+      <div class='footer-col footer-col-1'>
+        <ul class='contact-list'>
+          <li class='p-name'>
+
+            {%- if site.email -%}
+              <li>
+                Можете написать в любой момент на <a class='u-email' href='mailto:{{ site.email }}'>{{ site.email }}</a>
+              </li>
+              <li>
+                Если есть история, которой вы хотите поделиться, высылайте на этот email.
+              </li>
+            {%- endif -%}
+        </ul>
+      </div>
+
+      <div class='footer-col footer-col-2'>
+        {%- include social.html -%}
+      </div>
+
+      <div class='footer-col footer-col-3'>
+        <p>Записки о веб разработке, жизненные истории и обзоры.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

@@ -40,9 +40,9 @@
         
         <div class='arch'>
           <h1 class='name font-weight-bold text-uppercase'>
-            {%- if page.lang == 'en' -%}
+            {%- if page.lang-about == 'en' -%}
               Hi! I'm Slava Spetsyian
-            {%- else if page.lang == 'ru' -%}
+            {%- else if page.lang-about == 'ru' -%}
               Привет! Это Слава Специан
             {%- endif -%}
           </h1>
@@ -67,14 +67,14 @@
 
         <div style='text-align: center'>
           <a href='/'>
-            {%- if page.lang == 'en' -%}
+            {%- if page.lang-about == 'en' -%}
               Return to main page
-            {%- else if page.lang == 'ru' -%}
+            {%- else if page.lang-about == 'ru' -%}
               Вернуться на главную
             {%- endif -%}
           </a>
         </div>
-        
+
       </div>
     </main>
 
