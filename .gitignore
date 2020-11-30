@@ -240,7 +240,6 @@ $RECYCLE.BIN/
 
 # VSCode
 .DS_Store
-.DS_Store/*
 /.DS_Store/
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,macos,windows,ruby,node
