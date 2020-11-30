@@ -14,10 +14,10 @@ $background-dark: #ff9800;
 $text-muted: #555;
 
 
-.title-arch {
+.arch {
   text-align: center;
   letter-spacing: 2px;
-  margin: 40px 0 50px 0;
+  margin: 20px 0 20px 0;
 
   .orange, a .orange, a:hover {
     color: $orange;
@@ -34,20 +34,18 @@ $text-muted: #555;
   }
 }
 
+.arch-container {
+  margin: 20px 0 30px 0;
+}
+
 .text-muted {
   color: $text-muted;
 }
 
-.description-cont {
-  text-align: left;
+.about-page-img {
+  max-width: 100%;
+  padding: 20px 0 20px 0;
 }
-
-.avatar {
-  max-width: 50%;
-  padding: 10px 20px 15px 0;
-  margin: 5px 5px 5px 0;
-}
-
 
 .separate {
   margin: auto;
@@ -110,7 +108,7 @@ $text-muted: #555;
 //     font-size: 1.7rem;
 //   }
 
-//   .title-arch {
+//   .arch {
 //    text-align: left;
 //   }
 
@@ -131,7 +129,7 @@ $text-muted: #555;
 //     justify-content: flex-end;
 //   }
 
-//   .title-arch-home {
+//   .arch-home {
 //     text-align: center;
 //   }
 // }
@@ -157,7 +155,7 @@ $text-muted: #555;
       min-width: unset;
     }
   }
-  .title-arch .contact-links {
+  .arch .contact-links {
     display: block;
   }
   .mobile-hidden {
@@ -257,11 +255,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: $orange; text-decoration: none; }
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover  { color: darken($orange, 7%); }
 
 .social-media-list a:hover { text-decoration: none; }
-
-.social-media-list a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
 blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }

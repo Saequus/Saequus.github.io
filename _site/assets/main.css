@@ -1,19 +1,19 @@
 /*********************/
 /** Personal styles */
 /*********************/
-.title-arch { text-align: center; letter-spacing: 2px; margin: 40px 0 50px 0; }
+.arch { text-align: center; letter-spacing: 2px; margin: 20px 0 20px 0; }
 
-.title-arch .orange, .title-arch a .orange, .title-arch a:hover { color: #f57c00; }
+.arch .orange, .arch a .orange, .arch a:hover { color: #f57c00; }
 
-.title-arch .name { text-shadow: 0 0 1px black; color: #f57c00; }
+.arch .name { text-shadow: 0 0 1px black; color: #f57c00; }
 
-.title-arch .contact-links { display: flex; justify-content: center; }
+.arch .contact-links { display: flex; justify-content: center; }
+
+.arch-container { margin: 20px 0 30px 0; }
 
 .text-muted { color: #555; }
 
-.description-cont { text-align: left; }
-
-.avatar { max-width: 50%; padding: 10px 20px 15px 0; margin: 5px 5px 5px 0; }
+.about-page-img { max-width: 100%; padding: 20px 0 20px 0; }
 
 .separate { margin: auto; display: flex; justify-content: space-between; }
 
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 1160px) { .container { margin: 0 20px 0 20px; } .box-row { display: block; } .box-row .box-desc { min-width: unset; } }
 
-@media screen and (max-width: 780px) { .box-row { display: block; } .box-row .box-desc { min-width: unset; } .title-arch .contact-links { display: block; } .mobile-hidden { display: none; } }
+@media screen and (max-width: 780px) { .box-row { display: block; } .box-row .box-desc { min-width: unset; } .arch .contact-links { display: block; } .mobile-hidden { display: none; } }
 
 /*********************/
 /** Minima styles */
@@ -74,11 +74,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: #f57c00; text-decoration: none; }
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover { color: #d16a00; }
 
 .social-media-list a:hover { text-decoration: none; }
-
-.social-media-list a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
 blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
