@@ -48,16 +48,20 @@
           </h1>
     
           <h3>
-            <div class='orange' style='display: flex; justify-content: space-between;'>
-                <a href='https://github.com/saequus'>GitHub</a> |
-                <a href='https://www.linkedin.com/in/spetsyian/'>LinkedIn</a> |
-                <a href='https://leetcode.com/saequus/'>LeetCode</a> |
-                <a href='https://www.hackerrank.com/saequus'>HackerRank</a> |
+            <div class='orange about__links'>
+                <a href='https://github.com/saequus'>GitHub</a>
+                <div class='no-show-mobile'>|</div>
+                <a href='https://www.linkedin.com/in/spetsyian/'>LinkedIn</a>
+                <div class='no-show-mobile'>|</div>
+                <a href='https://leetcode.com/saequus/'>LeetCode</a> 
+                <div class='no-show-mobile'>|</div>
+                <a href='https://www.hackerrank.com/saequus'>HackerRank</a>
+                <div class='no-show-mobile'>|</div>
                 <a href='https://medium.com/saequus'>Medium Blog</a>
             </div>
           </h3>
     
-          <img class='about-page-img' src='/static/images/rocks.jpg' alt='Profile photo'>
+          <img class='about__page-img' src='/static/images/rocks.jpg' alt='Profile photo'>
         </div>
       
 
@@ -65,7 +69,7 @@
           {{ content }}
         </div>
 
-        <div style='text-align: center'>
+        <div class='about__return-to-main-page'>
           <a href='/'>
             {%- if page.lang-about == 'en' -%}
               Return to main page
@@ -78,7 +82,11 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
+    {%- if page.lang == 'en' -%}
+      {%- include en/footer.html -%}
+    {%- else if page.lang == 'ru' -%}
+      {%- include ru/footer.html -%}
+    {%- endif -%}
 
   </body>
 

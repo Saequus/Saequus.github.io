@@ -1,6 +1,7 @@
 ---
 layout: about
 lang-about: en
+lang: en
 ---
 
 
