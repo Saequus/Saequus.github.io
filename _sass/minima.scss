@@ -288,7 +288,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Mobile Font **/
 @media screen and (max-width: 1160px) { 
-  p, area, a { 
+  p, area, a, li { 
     font-size: $mobile-font-size; 
   } 
 }

@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 
-website-title: Spetsyian
+title: Spetsyian
 email: slava@spetsyian.com
 description: >- # this means to ignore newlines until 'baseurl:'
   Web development notes, life stories and reviews.
