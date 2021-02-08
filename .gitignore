@@ -242,4 +242,8 @@ $RECYCLE.BIN/
 .DS_Store
 /.DS_Store/
 
+spetsyian-blog.code-workspace
+
+.DS_Store
+
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,macos,windows,ruby,node

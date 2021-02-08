@@ -25,7 +25,7 @@ bundle install
 
 SASS
 ~~~ bash
-cd static/styles
+cd sass
 sass --watch main.scss:main.css
 
 bundle exec jekyll serve
