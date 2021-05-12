@@ -10,7 +10,7 @@ Python, JavaScript
 
 ## Веб-разработка и API
 
-Django, Node, Exress, Django Rest Framework, Vue, Flask, Falcon, CSS/SASS/LESS, Jekyll
+Django, Node, Express, Django Rest Framework, Vue, Flask, Falcon, CSS/SASS/LESS, Jekyll
 
 ## Базы данных и деплой 
 
