@@ -1,7 +1,12 @@
 # spetsyian.github.io
-v2020
+
+Version: 20210517
 
 ## Instalation
+
+~~~
+bundle install
+~~~
 
 ### Dev
 
@@ -26,13 +31,25 @@ bundle install
 SASS
 ~~~ bash
 cd sass
-sass --watch main.scss:main.css
+sass --watch minima/minima.scss:minima.css
+~~~
 
+Rebuild sources and start server
+~~~
 bundle exec jekyll serve
 ~~~
 
 Starts on http://127.0.0.1:4000
 
 
+## Known issues
+
+~~~
+# to fix ffi error
+
+export LDFLAGS="-L/usr/local/opt/libffi/lib" && \
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig" && \
+bundle --path vendor/bundle
+~~~
 
 
