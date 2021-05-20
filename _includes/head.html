@@ -9,6 +9,10 @@
   <!-- stylesheets -->
   <link rel='stylesheet' href='{{ "/assets/styles/custom.css" | relative_url }}' />
   <link rel='stylesheet' href='{{ "/assets/main.css" | relative_url }}' />
+
+  <!-- {%- if jekyll.environment == 'production' -%} -->
+  {%- include yandex-metrica.html -%}
+  <!-- {%- endif -%} -->
   
   
 <!-- feed meta -->
@@ -21,7 +25,7 @@
   <meta charset='UTF-8'>
 
   <!-- Yandex -->
-  <meta name='yandex-verification' content='168677b70a871d94' />
+  <meta name="yandex-verification" content="2806b77b64bc87b9" />
 
   <!-- Favicon -->
   <meta name='og:image' content='/assets/img/favicon.png'>
