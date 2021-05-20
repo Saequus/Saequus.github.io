@@ -42,6 +42,7 @@ gems:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 github: [metadata]
 
