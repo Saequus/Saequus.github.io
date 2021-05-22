@@ -6,14 +6,10 @@ categories: poem
 author: Слава Специан
 email: slava@spetsyian.com
 excerpt: Как напоминание о когда-то пережитом трудном моменте
+type: blogpost
 lang: ru
 ---
-
-# Programming The Universe
-__Programming The Universe by Set Lloyd__ 
-
-## Записки из книги «Программируя Вселенную» Сета Ллойда
-
+## Programming The Universe by Set Lloyd
 ### Часть I: Обезьяны
 
 В последние годы XIX в. три физика – Джеймс Клерк Максвелл, Людвиг Больцман и Джозайя Уиллард Гиббс обнаружили, что величина, известная как энтропия, представляет собой форму информации, а именно информацию, которая не известна.

@@ -6,6 +6,7 @@ categories: general
 author: Slava Spetsyian
 email: slava@spetsyian.com
 excerpt: Taking trip to other city?
+type: blogpost
 lang: en
 ---
 

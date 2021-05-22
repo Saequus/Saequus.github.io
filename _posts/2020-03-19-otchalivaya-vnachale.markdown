@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  'Стих «Отчаливая, вначале соберись с мыслями»'
+title:  '«Отчаливая, вначале соберись с мыслями»'
 date:   2020-03-19 12:00:59 +0300
 categories: poem
 author: Слава Специан
 email: slava@spetsyian.com
 excerpt: Стих, навеянный одним из самых замечательных сериалов
+type: poem
+poem_collect: Без сборника
 lang: ru
 ---
 

@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  'Стих «Вот этот миг настал»'
+title:  «Вот этот миг настал»
 date:   2020-08-01 12:00:00 +0300
 categories: poem
 author: Слава Специан
 email: slava@spetsyian.com
 excerpt: Как напоминание о когда-то пережитом трудном моменте
+type: poem
+poem_collect: Без сборника
 lang: ru
 ---
 

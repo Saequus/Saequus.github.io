@@ -33,6 +33,13 @@ bundle exec jekyll serve
 
 Starts on http://127.0.0.1:4000
 
+## Known issues
 
+~~~
+# to fix ffi error
 
+export LDFLAGS="-L/usr/local/opt/libffi/lib" && \
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig" && \
+bundle --path vendor/bundle
+~~~
 
