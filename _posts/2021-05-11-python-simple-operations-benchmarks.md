@@ -39,6 +39,11 @@ x += [1]
 
 >>> timeit.timeit(second_approach, number=10_000_000)
 0.5600485420000041
+
+>>> third_approach = "[].extend([[1]])"
+
+>>> timeit.timeit(third_approach, number=10_000_000)
+0.7181027080005151
 ```
 
 Even though we initialized a variable `x` in the first approach, it is still able to run faster then the `append` method.
